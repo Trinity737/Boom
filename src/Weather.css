@@ -29,6 +29,8 @@
   margin-right: 10px;
   display: inline-block;
   height: 64px;
+  position: relative;
+  bottom: 15px;
 }
 
 .Weather .temperature {
@@ -43,8 +45,8 @@
   color: rgb(33, 33, 33);
   font-size: 16px;
   font-weight: 400;
-  position: relative;
-  top: -34;
   line-height: 1;
   margin-left: 5px;
+  position: relative;
+  top: -35px;
 }
