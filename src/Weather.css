@@ -14,6 +14,9 @@
   font-weight: 100;
   margin: 20px 0 0 0;
 }
+.Weather form {
+  margin-bottom: 20px;
+}
 .Weather ul {
   margin: 0;
   padding: 1px;
@@ -28,7 +31,7 @@
 .Weather img {
   margin-top: 5px;
   margin-right: 5px;
-  display: inline-block;
+  display: block;
 }
 
 .Weather .temperature {

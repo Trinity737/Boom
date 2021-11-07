@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import WeatherIcon from "./WeatherIcon";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 import "./Weather.css";
 
@@ -46,7 +46,7 @@ export default function Weather(props) {
                 type="search"
                 nplaceholder="Enter a City..."
                 className="form-control"
-                autofocus="on"
+                autoFocus="on"
                 onChange={handleCityChange}
               />
             </div>
@@ -59,7 +59,8 @@ export default function Weather(props) {
             </div>
           </div>
         </form>
-        <WeatherIcon data={weatherData} />
+        <WeatherInfo data={weatherData} />
+        <WeatherForecast />
       </div>
     );
   } else {
