@@ -19,7 +19,7 @@ export default function App() {
           and{" "}
           <a
             href="https://blissful-poincare-cfa49e.netlify.app/"
-            rel="noopener norenderer"
+            rel="noopener noreferrer"
           >
             hosted on Netlify
           </a>
