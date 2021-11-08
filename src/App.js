@@ -15,6 +15,13 @@ export default function App() {
             rel="noopener noreferrer"
           >
             open-sourced on Github
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://blissful-poincare-cfa49e.netlify.app/"
+            rel="noopener norenderer"
+          >
+            hosted on Netlify
           </a>
         </footer>
       </div>
