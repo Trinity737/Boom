@@ -8,7 +8,7 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="New York" />
         <footer>
-          This projeto was coded by Cheavon Pottinger and is{" "}
+          This project was coded by Cheavon Pottinger and is{" "}
           <a
             href="https://github.com/Trinity737/Boom"
             Target="_blank"
